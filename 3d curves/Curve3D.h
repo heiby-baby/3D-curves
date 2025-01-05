@@ -1,15 +1,13 @@
 #pragma once
 #include <iostream>
-#include <vector>
-#include <memory>
 #include <cmath>
-#include <algorithm>
 
 #ifndef PI
 #define PI 3.141592653589
 #endif // !PI
 
 namespace Curve3D {
+
     struct Point3D {
         double x;
         double y;
@@ -26,7 +24,7 @@ namespace Curve3D {
         }
     };
 
-    // t is angle
+    // t is angle in polar sys
     class Curve {
     public:
 
@@ -52,9 +50,10 @@ namespace Curve3D {
             return { -this->radius * std::sin(t), this->radius * std::cos(t), 0.0 };
         }
 
-        double getRadius() const {
+        double getRadius() const
+        { 
             return radius;
-        }
+        };
     };
 
     class Ellipse : public Curve {
@@ -95,4 +94,5 @@ namespace Curve3D {
             return { -this->radius * std::sin(t), this->radius * std::cos(t), step / (2 * PI) };
         }
     };
+
 }
