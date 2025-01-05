@@ -22,7 +22,6 @@ int main() {
     }
 
 
-    //вывод производных
     for (std::unique_ptr<Curve>& curve : curves) {
         Point3D point = curve->getPoint(PI/4);
         Point3D derivative = curve->getDerivative(PI / 4);
@@ -30,7 +29,6 @@ int main() {
         std::cout << "Derivative: " << derivative << std::endl;
     }
 
-    //перехват владения объектами
     std::vector<std::unique_ptr<Circle>> circles;
     
     for (size_t i = 0; i < curves.size(); i++) {
@@ -41,7 +39,6 @@ int main() {
         }
     }
 
-    //cортировка кругов
     std::sort(circles.begin(), circles.end(), [](const std::unique_ptr<Circle>& a, const std::unique_ptr<Circle>& b) {
         return a->getRadius() < b->getRadius();
         });
