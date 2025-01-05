@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 179,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -35,20 +35,11 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-01-02T23:20:54.176Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -68,8 +59,7 @@
               "RelativeToolTip": "3D curves\\Curve3D.h",
               "ViewState": "AQIAABwAAAAAAAAAAAAqwDAAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-02T23:42:44.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T23:42:44.137Z"
             },
             {
               "$type": "Document",
@@ -79,7 +69,7 @@
               "RelativeDocumentMoniker": "3D curves\\main.cpp",
               "ToolTip": "C:\\Heiby\\Cods\\Task\\3D curves\\3D curves\\main.cpp",
               "RelativeToolTip": "3D curves\\main.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAADAAAABKAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADAAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-02T15:16:33.073Z",
               "EditorCaption": ""
