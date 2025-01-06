@@ -1,0 +1,9 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Release\) содержит файлы, которые используются совместно с другим проектом (DLL.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Curver3D DLL.cpp
+     Создается библиотека C:\Heiby\Cods\Task\3D curves\x64\Release\3D curves DLL.lib и объект C:\Heiby\Cods\Task\3D curves\x64\Release\3D curves DLL.exp
+  Создание кода
+  50 of 50 functions (100.0%) were compiled.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  DLL.vcxproj -> C:\Heiby\Cods\Task\3D curves\x64\Release\3D curves DLL.dll

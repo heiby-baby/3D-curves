@@ -29,7 +29,6 @@ namespace Curve3D {
     public:
 
         virtual Point3D getPoint(double t) const = 0;
-
         virtual Point3D getDerivative(double t) const = 0;
     };
 
@@ -37,42 +36,20 @@ namespace Curve3D {
     private:
         double radius;
     public:
-        explicit Circle(double radius) {
-            if (radius <= 0) {
-                throw std::invalid_argument("Radius must be positive");
-            }
-            this->radius = radius;
-        }
-        Point3D getPoint(double t) const override {
-            return { this->radius * std::cos(t), this->radius * std::sin(t), 0.0 };
-        }
-        Point3D getDerivative(double t) const override {
-            return { -this->radius * std::sin(t), this->radius * std::cos(t), 0.0 };
-        }
+        explicit Circle(double radius);
+        Point3D getPoint(double t) const override;
+        Point3D getDerivative(double t) const override;
 
-        double getRadius() const
-        { 
-            return radius;
-        };
+        double getRadius() const;
     };
 
     class Ellipse : public Curve {
     private:
         double radiusX, radiusY;
     public:
-        explicit Ellipse(double radiusX, double radiusY) {
-            if (radiusX <= 0 || radiusY <= 0) {
-                throw std::invalid_argument("Radius must be positive");
-            }
-            this->radiusX = radiusX;
-            this->radiusY = radiusY;
-        }
-        Point3D getPoint(double t) const override {
-            return { this->radiusX * std::cos(t), this->radiusY * std::sin(t), 0.0 };
-        }
-        Point3D getDerivative(double t) const override {
-            return { -this->radiusX * std::sin(t), this->radiusY * std::cos(t), 0.0 };
-        }
+        explicit Ellipse(double radiusX, double radiusY);
+        Point3D getPoint(double t) const override;
+        Point3D getDerivative(double t) const override;
     };
 
 
@@ -80,19 +57,9 @@ namespace Curve3D {
     private:
         double radius, step;
     public:
-        explicit Helix(double raduis, double step) {
-            if (raduis <= 0) {
-                throw std::invalid_argument("Radius must be positive");
-            }
-            this->radius = raduis;
-            this->step = step;
-        }
-        Point3D getPoint(double t) const override {
-            return { this->radius * std::cos(t), this->radius * std::sin(t), step * t / (2 * PI) };
-        }
-        Point3D getDerivative(double t) const override {
-            return { -this->radius * std::sin(t), this->radius * std::cos(t), step / (2 * PI) };
-        }
+        explicit Helix(double raduis, double step);
+        Point3D getPoint(double t) const override;
+        Point3D getDerivative(double t) const override;
     };
 
 }
