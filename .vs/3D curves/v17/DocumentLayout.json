@@ -51,8 +51,7 @@
               "ViewState": "AQIAABsAAAAAAAAAAAAqwEAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-05T22:52:19.401Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -84,8 +83,7 @@
               "RelativeToolTip": "DLL\\Curver3D DLL.cpp",
               "ViewState": "AQIAABMAAAAAAAAAAAAqwDgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-06T00:08:40.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T00:08:40.412Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "RelativeToolTip": "DLL\\Curve3D DLL.h",
               "ViewState": "AQIAABoAAAAAAAAAAAAqwDAAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-06T00:08:25.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T00:08:25.52Z"
             },
             {
               "$type": "Document",
@@ -108,7 +105,7 @@
               "RelativeDocumentMoniker": "3D curves with DLL\\main.cpp",
               "ToolTip": "C:\\Heiby\\Cods\\Task\\3D curves\\3D curves with DLL\\main.cpp",
               "RelativeToolTip": "3D curves with DLL\\main.cpp",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADsAAAAOAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAwDsAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-05T23:40:04.903Z",
               "EditorCaption": ""
@@ -123,8 +120,7 @@
               "RelativeToolTip": "3D curves\\Curve3D.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-05T17:20:23.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T17:20:23.934Z"
             },
             {
               "$type": "Document",
@@ -136,8 +132,7 @@
               "RelativeToolTip": "3D curves\\main.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-05T17:18:58.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T17:18:58.86Z"
             },
             {
               "$type": "Document",
@@ -149,8 +144,7 @@
               "RelativeToolTip": "3D curves\\Tasks.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-01-05T16:32:28.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T16:32:28.223Z"
             }
           ]
         }
